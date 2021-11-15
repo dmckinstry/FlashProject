@@ -29,6 +29,10 @@ At execution level, there will be an object with the two higher-level classes
 #include "BaseTypes.cpp"
 
 int main(int argc, char** argv) {
+
+	char dst[256];
+	char *s = read_string();
+	strcpy(dst, s);
 	
 	//Tests of basic interpreter class:
 	testToBits();
