@@ -1,6 +1,8 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
+#include "string.h"
+
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -29,7 +31,9 @@ At execution level, there will be an object with the two higher-level classes
 #include "BaseTypes.cpp"
 
 int main(int argc, char** argv) {
-	
+	char buffer[256];
+	strcpy( argv[0], buffer );
+
 	//Tests of basic interpreter class:
 	testToBits();
 	testRect();
