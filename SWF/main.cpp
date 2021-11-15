@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
 	char buffer[256];
 	strcpy( argv[0], buffer );
 
-	//Tests of basic interpreter class:
+  //Tests of basic interpreter class:
 	testToBits();
 	testRect();
 	testArgb();
